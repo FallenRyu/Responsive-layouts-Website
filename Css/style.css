@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------------------------------------------------------Typography---------------------------------------------------------*/
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;-*/
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+/* ---------------------------------------------------------Typography---------------------------------------------------------*/
+
+.Banner--black {
+  background-color: #2e323f;
+  color: #fff;
+}
+
+.NavPrimary {
+  display: flex;
+  justify-content: space-around;
+}
+
+.NavPrimary__items a {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.button {
+}
+
+.CTA {
+  background-color: #3b4050;
+  color: #fff;
+  display: flex;
+  padding: 2rem;
+}
+
+.accent-color {
+  color: #a59678;
+}

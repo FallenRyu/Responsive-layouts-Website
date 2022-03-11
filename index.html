@@ -4,32 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="Banner--black">
       <nav class="NavPrimary" aria-label="Primary navigation">
         <img src="/Img/logo.svg" alt="Logo" />
         <ul>
-          <li><a href="#">Home </a></li>
-          <li><a href="#">About </a></li>
-          <li><a href="#"> Contact </a></li>
-          <li><a href="#"> Sign in</a></li>
-          <li><a href="#">Sign up </a></li>
+          <li class="NavPrimary__items"><a href="#">Home </a></li>
+          <li class="NavPrimary__items"><a href="#">About </a></li>
+          <li class="NavPrimary__items"><a href="#"> Contact </a></li>
+        </ul>
+        <ul>
+          <li class="NavPrimary__items"><a href="#"> Sign in</a></li>
+          <li class="NavPrimary__items"><a href="#">Sign up </a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h1>Responsive layouts don't have to be a struggle</h1>
-      <p>
+    <main class="CTA">
+      <h1 class="CTA__Header">
+        Responsive layouts
+        <span class="accent-color">don't have to be a struggle</span>
+      </h1>
+      <p class="CTA__para">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <a href="#" class="Button">I want to learn</a>
     </main>
 
-    <section>
+    <section class="FirstSection">
       <div>
         <h2>Mobile First</h2>
         <p>
@@ -56,7 +69,7 @@
       </p>
     </section>
 
-    <section>
+    <section class="SecondSection">
       <div>
         <h2>It doesnt have to be so hard</h2>
         <p>
